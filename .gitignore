@@ -1,0 +1,45 @@
+# =========================
+# Personal / notes
+# =========================
+
+notes/
+notes.md
+*_NOTES.py
+
+# =========================
+# Full / private implementation
+# =========================
+
+*_FULL.py
+pipeline/
+
+# =========================
+# Python cache / bytecode
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+
+.venv/
+venv/
+env/
+
+# =========================
+# IDE / Editor files
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
