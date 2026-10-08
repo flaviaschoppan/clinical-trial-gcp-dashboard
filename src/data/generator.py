@@ -11,6 +11,27 @@ import pandas as pd
 
 
 # ----------------------------------------------------------
+# Configuration
+# ----------------------------------------------------------
+
+# Trial sites
+SITE_CATEGORIES = ["Site 01", "Site 02", "Site 03", "Site 04"]
+SITE_PROBABILITIES = [0.30, 0.30, 0.20, 0.20]
+
+# Treatment arms
+TREATMENT_CATEGORIES = [
+    "Investigational Arm (Dose A)",
+    "High Dose Arm (Dose B)",
+    "Standard of Care / Control",
+]
+TREATMENT_PROBABILITIES = [0.40, 0.40, 0.20]
+
+# Patient status
+STATUS_CATEGORIES = ["Active", "Completed", "Discontinued"]
+STATUS_PROBABILITIES = [0.70, 0.20, 0.10]
+
+
+# ----------------------------------------------------------
 # Synthetic patient data generation
 # ----------------------------------------------------------
 
@@ -31,31 +52,27 @@ def generate_patient_data(n_patients=150, seed=42):
     # Trial sites
     # ----------------------------
     sites = np.random.choice(
-        ["Site 01", "Site 02", "Site 03", "Site 04"],
+        SITE_CATEGORIES,
         size=n_patients,
-        p=[0.30, 0.30, 0.20, 0.20],
+        p=SITE_PROBABILITIES,
     )
 
     # ----------------------------
     # Treatment allocation
     # ----------------------------
     treatment_arms = np.random.choice(
-        [
-            "Investigational Arm (Dose A)",
-            "High Dose Arm (Dose B)",
-            "Standard of Care / Control",
-        ],
+        TREATMENT_CATEGORIES,
         size=n_patients,
-        p=[0.40, 0.40, 0.20],
+        p=TREATMENT_PROBABILITIES,
     )
 
     # ----------------------------
     # Patient status
     # ----------------------------
     patient_status = np.random.choice(
-        ["Active", "Completed", "Discontinued"],
+        STATUS_CATEGORIES,
         size=n_patients,
-        p=[0.70, 0.20, 0.10],
+        p=STATUS_PROBABILITIES,
     )
 
     # ----------------------------
