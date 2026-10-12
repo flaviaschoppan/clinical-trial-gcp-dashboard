@@ -6,7 +6,7 @@ A Python-based project under development to simulate clinical trial data and bui
 
 The project aims to combine synthetic clinical trial data generation, structured data validation, and interactive visualizations to demonstrate practical applications of programming and data analytics in clinical research.
 
-**Development status:** In progress (participant data generator specification).
+**Development status:** In progress (participant and adverse event generator specifications).
 
 All datasets will be entirely synthetic and represent a fictional clinical trial. This project is intended for educational, technical development, and portfolio purposes. It will not use real patient information or serve as a clinically or regulatorily validated monitoring system.
 
@@ -48,7 +48,7 @@ This repository is the **public portfolio edition** of the Clinical Trial Safety
 
 It will provide selected technical documentation, development milestones, project structure, and non-proprietary materials intended to demonstrate the project's design, methodology, and development progress.
 
-The initial public specification is documented in `src/data/generator.py`, beginning with the `generate_patient_data(n_patients=150, seed=42)` interface. This function contract defines the expected inputs, participant-level DataFrame output, and general generation behavior without exposing the executable implementation.
+The initial public specification is documented in `src/data/generator.py`, beginning with the `generate_patient_data(n_patients=150, seed=42)` interface. The specification now also includes the `generate_adverse_event_data(df_patients, seed=42)` interface for adverse event generation. These function contracts define expected inputs, outputs, and general generation behavior without exposing the executable implementations.
 
 The complete executable implementation, internal simulation logic, configuration parameters, and detailed validation routines will be maintained separately in a private codebase.
 
@@ -87,8 +87,8 @@ It is intended for software development, methodological exploration, and demonst
 
 **Overall project:** In development.
 
-**Current milestone:** Block 01 (Synthetic Data Generation) - Participant data model and reproducibility requirements documented.
+**Current milestone:** Block 01 (Synthetic Data Generation) - Participant data model, reproducibility requirements, and adverse event generator interface documented.
 
-**Next development step:** Define the adverse event generator interface and its relationship to participant records.
+**Next development step:** Specify participant-event relationships and the adverse event output schema.
 
 This README will be updated as additional development milestones are completed.
