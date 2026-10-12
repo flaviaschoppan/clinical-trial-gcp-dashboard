@@ -329,6 +329,20 @@
 # - Multiple events per participant are supported.
 # - Participant and event counts remain distinguishable.
 
+# -----------------------
+
+# 4.3 CLINICAL CONSISTENCY
+
+# Validation requirements:
+
+# - Event terms belong to the supported domain.
+# - Organ system mappings are internally consistent.
+# - Severity classifications are valid.
+# - Seriousness classifications are valid.
+# - Treatment relationship values are valid.
+# - Event outcomes belong to the supported domain.
+# - Resolution indicators are compatible with outcomes.
+
 
 
 # ----------------------------------------------------------
