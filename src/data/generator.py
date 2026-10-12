@@ -254,6 +254,29 @@
 # Missing resolution information must be
 # represented explicitly where applicable.
 
+# These constraints assess the consistency of
+# synthetic classifications, not the clinical
+# accuracy of real-world safety assessments.
+
+# -----------------------
+
+# 3.5 DATA INTERPRETATION
+
+# Each row represents an adverse event record,
+# not a unique participant.
+
+# Severity and seriousness are separate variables
+# and must not be used interchangeably.
+
+# Treatment relationship is a simulated
+# classification, not evidence of causality.
+
+# Event outcomes and resolution indicators
+# represent synthetic record states.
+
+# The generated data must not be interpreted
+# as observed clinical safety evidence.
+
 
 
 # ----------------------------------------------------------
