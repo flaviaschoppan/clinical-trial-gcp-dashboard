@@ -161,6 +161,27 @@
 #   - Represent event outcomes and resolution status.
 #   - Return a consistently structured DataFrame.
 
+# -----------------------
+
+# 3.2 RELATIONAL MODEL
+
+# Participant dataset:
+#   Primary key: patient_id
+
+# Adverse event dataset:
+#   Primary key: ae_id
+#   Foreign key: patient_id
+
+# Relationship:
+#   One participant -> zero or more adverse events.
+
+# Referential invariant:
+#   Every adverse event patient_id must reference
+#   an existing participant in df_patients.
+
+# Event counts must not be interpreted as the number
+# of distinct participants experiencing events.
+
 
 
 # ----------------------------------------------------------
