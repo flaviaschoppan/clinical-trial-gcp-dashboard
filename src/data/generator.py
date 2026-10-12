@@ -182,6 +182,43 @@
 # Event counts must not be interpreted as the number
 # of distinct participants experiencing events.
 
+# -----------------------
+
+# 3.3 OUTPUT SCHEMA
+
+# ae_id
+#   Unique identifier for a synthetic adverse event.
+
+# patient_id
+#   Reference to an existing synthetic participant.
+
+# ae_start_date
+#   Date representing adverse event onset.
+
+# reported_date
+#   Date representing adverse event reporting.
+
+# ae_term
+#   Simulated adverse event term.
+
+# organ_system
+#   Organ system associated with the event term.
+
+# severity_grade
+#   Simulated adverse event severity classification.
+
+# is_serious
+#   Boolean seriousness classification.
+
+# drug_relationship
+#   Simulated relationship to study treatment.
+
+# ae_outcome
+#   Simulated adverse event outcome.
+
+# resolved
+#   Nullable indicator of event resolution status.
+
 
 
 # ----------------------------------------------------------
