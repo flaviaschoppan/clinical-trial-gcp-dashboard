@@ -45,6 +45,33 @@
 #   - Generate participant enrollment dates.
 #   - Return a consistently structured DataFrame.
 
+# ----------------------------------------------------------
+
+# 1.2 OUTPUT SCHEMA
+
+# patient_id
+#   Participant identifier; unique and non-null.
+
+# site
+#   Fictional clinical investigation site.
+
+# treatment_arm
+#   Assigned fictional treatment group.
+
+# status
+#   Simulated participant participation status.
+
+# age
+#   Synthetic participant age.
+
+# gender
+#   Synthetic demographic classification.
+
+# enrollment_date
+#   Participant enrollment date.
+
+
+
 
 # ----------------------------------------------------------
 # IMPLEMENTATION BOUNDARY
