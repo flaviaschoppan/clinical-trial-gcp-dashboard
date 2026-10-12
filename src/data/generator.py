@@ -289,6 +289,17 @@
 #   ae_start_date must fall within the
 #   configured follow-up observation window.
 
+# Event onset and reporting:
+#   reported_date must not precede ae_start_date.
+
+# Reporting interval:
+#   Reporting delays must satisfy the model's
+#   internal temporal constraints.
+
+# Reporting dates are distinct from onset dates.
+# The synthetic reporting interval does not
+# represent a regulatory reporting deadline.
+
 
 
 # ----------------------------------------------------------
