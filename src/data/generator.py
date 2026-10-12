@@ -343,6 +343,44 @@
 # - Event outcomes belong to the supported domain.
 # - Resolution indicators are compatible with outcomes.
 
+# -----------------------
+
+# 4.4 TEMPORAL INTEGRITY
+
+# Validation requirements:
+
+# - Enrollment and event dates have valid date types.
+# - Event onset does not precede enrollment.
+# - Reporting does not precede event onset.
+# - Reporting intervals respect defined constraints.
+# - Required temporal fields are populated.
+
+# -----------------------
+
+# 4.5 FOLLOW-UP CONSTRAINTS
+
+# Validation requirements:
+
+# - Event onset falls within the observation window.
+# - Lower and upper follow-up boundaries are respected.
+# - Event timing is evaluated against the correct
+#   participant enrollment date.
+# - Reporting dates are evaluated separately
+#   from event onset constraints.
+
+# -----------------------
+
+# 4.6 REPRODUCIBILITY
+
+# Validation requirements:
+
+# - Identical seeds and inputs produce identical outputs.
+# - Repeated runs preserve schema and data types.
+# - Participant generation is reproducible.
+# - Adverse event generation is reproducible.
+# - Different seeds can be used for additional
+#   consistency testing.
+
 
 
 # ----------------------------------------------------------
