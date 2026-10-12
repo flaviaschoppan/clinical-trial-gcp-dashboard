@@ -70,6 +70,16 @@
 # enrollment_date
 #   Participant enrollment date.
 
+# ----------------------------------------------------------
+
+# 1.3 DATA CONSTRAINTS
+
+# - One row represents one participant.
+# - Participant identifiers must be unique.
+# - Required participant fields must be populated.
+# - Categorical values must follow their defined domains.
+# - Enrollment dates must use a consistent date type.
+# - The output must preserve its documented schema.
 
 
 
