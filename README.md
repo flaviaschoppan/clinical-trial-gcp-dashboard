@@ -48,7 +48,7 @@ This repository is the **public portfolio edition** of the Clinical Trial Safety
 
 It will provide selected technical documentation, development milestones, project structure, and non-proprietary materials intended to demonstrate the project's design, methodology, and development progress.
 
-The initial public specification is documented in `src/data/generator.py`, beginning with the `generate_patient_data(n_patients=150, seed=42)` interface. The specification now also includes the `generate_adverse_event_data(df_patients, seed=42)` interface for adverse event generation. These function contracts define expected inputs, outputs, and general generation behavior without exposing the executable implementations.
+The public specification is documented in `src/data/generator.py`, covering the `generate_patient_data(n_patients=150, seed=42)` and `generate_adverse_event_data(df_patients, seed=42)` interfaces. It defines the expected inputs and outputs, participant and adverse event data schemas, and relationships between participant records and adverse events without exposing the executable implementations.
 
 The complete executable implementation, internal simulation logic, configuration parameters, and detailed validation routines will be maintained separately in a private codebase.
 
@@ -65,6 +65,8 @@ Accordingly, the public repository is not intended to provide a fully executable
 | **Streamlit**    | Planned interactive dashboard interface                                  |
 | **Plotly**       | Planned interactive data visualizations                                  |
 | **Git / GitHub** | Version control, development history, and public technical documentation |
+
+
 
 
 ## 5. GCP and Clinical research context
@@ -87,8 +89,8 @@ It is intended for software development, methodological exploration, and demonst
 
 **Overall project:** In development.
 
-**Current milestone:** Block 01 (Synthetic Data Generation) - Participant data model, reproducibility requirements, and adverse event generator interface documented.
+**Current milestone:** Block 01 (Synthetic Data Generation) - Participant and adverse event generator interfaces, data schemas, and participant-event relationships documented.
 
-**Next development step:** Specify participant-event relationships and the adverse event output schema.
+**Next development step:** Define adverse event classification domains, clinical interpretation rules, and temporal constraints.
 
 This README will be updated as additional development milestones are completed.
