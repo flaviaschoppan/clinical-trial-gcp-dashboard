@@ -45,7 +45,7 @@
 #   - Generate participant enrollment dates.
 #   - Return a consistently structured DataFrame.
 
-# ----------------------------------------------------------
+# -----------------------
 
 # 1.2 OUTPUT SCHEMA
 
@@ -70,7 +70,7 @@
 # enrollment_date
 #   Participant enrollment date.
 
-# ----------------------------------------------------------
+# -----------------------
 
 # 1.3 DATA CONSTRAINTS
 
@@ -80,6 +80,25 @@
 # - Categorical values must follow their defined domains.
 # - Enrollment dates must use a consistent date type.
 # - The output must preserve its documented schema.
+
+
+
+# ----------------------------------------------------------
+# 02. TRIAL POPULATION MODELING
+# ----------------------------------------------------------
+
+# 2.1 POPULATION ATTRIBUTES
+
+# The participant generator represents variation across:
+
+# - Fictional investigation sites.
+# - Fictional treatment groups.
+# - Participation statuses.
+# - Demographic attributes.
+# - Enrollment dates.
+
+# These attributes are generated using controlled
+# synthetic sampling configurations.
 
 
 
