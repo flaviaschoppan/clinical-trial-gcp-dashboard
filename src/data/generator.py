@@ -131,6 +131,39 @@
 
 
 # ----------------------------------------------------------
+# 03. ADVERSE EVENT DATA GENERATION
+# ----------------------------------------------------------
+
+# 3.1 FUNCTION CONTRACT
+
+# generate_adverse_event_data(df_patients, seed=42)
+
+# Input:
+#   df_patients : pandas.DataFrame
+#       Participant dataset generated according to
+#       the participant-level schema.
+
+#   seed : int
+#       Random seed controlling reproducibility.
+
+# Output:
+#   pandas.DataFrame
+#       Zero or more adverse event records associated
+#       with participants in the input dataset.
+
+# Expected behavior:
+#   - Use existing participant records as the source
+#     of valid participant identifiers.
+#   - Support multiple events for one participant.
+#   - Generate unique event identifiers.
+#   - Populate event terminology and classifications.
+#   - Generate event onset and reporting dates.
+#   - Represent event outcomes and resolution status.
+#   - Return a consistently structured DataFrame.
+
+
+
+# ----------------------------------------------------------
 # IMPLEMENTATION BOUNDARY
 # ----------------------------------------------------------
 
