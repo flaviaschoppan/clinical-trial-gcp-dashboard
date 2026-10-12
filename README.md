@@ -6,7 +6,7 @@ A Python-based project under development to simulate clinical trial data and bui
 
 The project aims to combine synthetic clinical trial data generation, structured data validation, and interactive visualizations to demonstrate practical applications of programming and data analytics in clinical research.
 
-**Development status:** In progress (participant and adverse event generator specifications).
+**Development status:** Block 01 completed; dashboard development pending.
 
 All datasets will be entirely synthetic and represent a fictional clinical trial. This project is intended for educational, technical development, and portfolio purposes. It will not use real patient information or serve as a clinically or regulatorily validated monitoring system.
 
@@ -31,13 +31,13 @@ The project is designed as a technical demonstration rather than a substitute fo
 The project will be developed incrementally, beginning with the synthetic data foundation.
 
 
-| Development block                                   | Scope                                                                                          | Status      |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| **Block 01** - **Synthetic Data Generation**        | Participant and adverse event data modeling, generation, integrity checks, and reproducibility | In progress |
-| **Block 02 - Dashboard Foundation**                 | Streamlit application structure, dataset integration, navigation, and interactive filters      | Planned     |
-| **Block 03** - **Safety Monitoring Analytics**      | Adverse event summaries, safety indicators, and interactive visualizations                     | Planned     |
-| **Block 04** - **Site and Data Quality Monitoring** | Site-level comparisons, consistency indicators, and exploratory data quality assessments       | Planned     |
-| **Block 05** - **Reporting and Final Validation**   | Data exploration refinements, reporting/export features, testing, and documentation            | Planned     |
+| Development block                                   | Scope                                                                                          | Status    |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------- |
+| **Block 01** - **Synthetic Data Generation**        | Participant and adverse event data modeling, generation, integrity checks, and reproducibility | Completed |
+| **Block 02 - Dashboard Foundation**                 | Streamlit application structure, dataset integration, navigation, and interactive filters      | Planned   |
+| **Block 03** - **Safety Monitoring Analytics**      | Adverse event summaries, safety indicators, and interactive visualizations                     | Planned   |
+| **Block 04** - **Site and Data Quality Monitoring** | Site-level comparisons, consistency indicators, and exploratory data quality assessments       | Planned   |
+| **Block 05** - **Reporting and Final Validation**   | Data exploration refinements, reporting/export features, testing, and documentation            | Planned   |
 
 
 The roadmap represents the intended development direction and may be refined as the project progresses. Planned functionality should not be interpreted as already implemented.
@@ -49,6 +49,8 @@ This repository is the **public portfolio edition** of the Clinical Trial Safety
 It will provide selected technical documentation, development milestones, project structure, and non-proprietary materials intended to demonstrate the project's design, methodology, and development progress.
 
 The public specification is documented in `src/data/generator.py`, covering the `generate_patient_data(n_patients=150, seed=42)` and `generate_adverse_event_data(df_patients, seed=42)` interfaces. It defines the expected inputs and outputs, participant and adverse event data schemas, entity relationships, clinical classification and temporal constraints, and structural, referential, clinical, temporal, and reproducibility validation requirements without exposing the executable implementations.
+
+The Block 01 public specification also documents the scope of internal consistency checks and the boundaries between publicly available technical documentation and privately maintained executable code. Internal consistency checks do not constitute clinical or regulatory validation.
 
 The complete executable implementation, internal simulation logic, configuration parameters, and detailed validation routines will be maintained separately in a private codebase.
 
@@ -65,6 +67,8 @@ Accordingly, the public repository is not intended to provide a fully executable
 | **Streamlit**    | Planned interactive dashboard interface                                  |
 | **Plotly**       | Planned interactive data visualizations                                  |
 | **Git / GitHub** | Version control, development history, and public technical documentation |
+
+
 
 
 ## 5. GCP and Clinical research context
@@ -87,8 +91,8 @@ It is intended for software development, methodological exploration, and demonst
 
 **Overall project:** In development.
 
-**Current milestone:** Block 01 (Synthetic Data Generation) - Participant and adverse event data specifications, clinical and temporal constraints, and data validation requirements documented.
+**Current milestone:** Block 01 (Synthetic Data Generation) - Completed, with the public technical specification documenting participant and adverse event data models, clinical and temporal constraints, validation requirements, and implementation boundaries.
 
-**Next development step:** Finalize the public generator specification, document the validation status and implementation boundaries, and complete the Block 01 documentation.
+**Next development step:** Begin Block 02 by defining the Streamlit dashboard structure, dataset integration, navigation, and interactive filtering.
 
 This README will be updated as additional development milestones are completed.
