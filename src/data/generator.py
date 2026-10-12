@@ -277,6 +277,18 @@
 # The generated data must not be interpreted
 # as observed clinical safety evidence.
 
+# -----------------------
+
+# 3.6 TEMPORAL CONSTRAINTS
+
+# Enrollment and event onset:
+#   ae_start_date must not precede the
+#   participant's enrollment_date.
+
+# Follow-up:
+#   ae_start_date must fall within the
+#   configured follow-up observation window.
+
 
 
 # ----------------------------------------------------------
