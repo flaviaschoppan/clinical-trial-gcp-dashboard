@@ -100,6 +100,34 @@
 # These attributes are generated using controlled
 # synthetic sampling configurations.
 
+# -----------------------
+
+# 2.2 SAMPLING BEHAVIOR
+
+# Population generation is designed to:
+
+# - Support multiple participant characteristics.
+# - Maintain consistent categorical definitions.
+# - Produce structurally valid participant records.
+# - Provide variation for downstream analytical testing.
+
+# Internal distributions, sampling weights, and
+# generation mechanisms are not publicly disclosed.
+
+
+# -----------------------
+
+# 2.3 REPRODUCIBILITY REQUIREMENTS
+
+# Under an identical configuration and random seed:
+
+# - Participant generation must be deterministic.
+# - Repeated runs must produce equivalent datasets.
+# - Column definitions and data types must remain stable.
+
+# Different seeds may produce different synthetic
+# populations while preserving the output contract.
+
 
 
 # ----------------------------------------------------------

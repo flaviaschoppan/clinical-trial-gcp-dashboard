@@ -87,8 +87,8 @@ It is intended for software development, methodological exploration, and demonst
 
 **Overall project:** In development.
 
-**Current milestone:** Block 01 (Synthetic Data Generation) - Participant generator interface specification.
+**Current milestone:** Block 01 (Synthetic Data Generation) - Participant data model and reproducibility requirements documented.
 
-**Next development step:** Define the participant dataset schema, including its expected fields and data structure.
+**Next development step:** Define the adverse event generator interface and its relationship to participant records.
 
 This README will be updated as additional development milestones are completed.
