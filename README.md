@@ -89,8 +89,8 @@ It is intended for software development, methodological exploration, and demonst
 
 **Overall project:** In development.
 
-**Current milestone:** Block 01 (Synthetic Data Generation) - Participant and adverse event generator interfaces, data schemas, and participant-event relationships documented.
+**Current milestone:** Block 01 (Synthetic Data Generation) - Participant and adverse event data models, clinical classification semantics, event chronology, and adverse event reporting date requirements documented.
 
-**Next development step:** Define adverse event classification domains, clinical interpretation rules, and temporal constraints.
+**Next development step:** Define structural, referential, clinical, temporal, and reproducibility validation requirements for the synthetic datasets.
 
 This README will be updated as additional development milestones are completed.
