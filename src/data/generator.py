@@ -219,6 +219,41 @@
 # resolved
 #   Nullable indicator of event resolution status.
 
+# -----------------------
+
+# 3.4 CLINICAL CLASSIFICATION CONSTRAINTS
+
+# Adverse event terminology:
+#   Event terms must belong to the supported
+#   synthetic terminology domain.
+
+# Organ system:
+#   Organ system assignments must be consistent
+#   with their associated event terms.
+
+# Severity:
+#   Severity classifications must use the
+#   model's defined grading domain.
+
+# Seriousness:
+#   Seriousness is represented independently
+#   from severity.
+
+# Treatment relationship:
+#   Relationship classifications must belong
+#   to the model's defined categorical domain.
+
+# Outcome:
+#   Outcome values must follow the supported
+#   synthetic outcome classifications.
+
+# Resolution:
+#   Resolution status must remain consistent
+#   with the assigned outcome.
+
+# Missing resolution information must be
+# represented explicitly where applicable.
+
 
 
 # ----------------------------------------------------------
