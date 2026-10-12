@@ -303,6 +303,35 @@
 
 
 # ----------------------------------------------------------
+# 04. DATA VALIDATION
+# ----------------------------------------------------------
+
+# 4.1 STRUCTURAL INTEGRITY
+
+# Validation requirements:
+
+# - Expected output columns are present.
+# - Column ordering remains consistent.
+# - Data types match the defined schemas.
+# - Required identifiers are not missing.
+# - Nullable fields preserve valid missing values.
+# - Generated outputs retain tabular consistency.
+
+# -----------------------
+
+# 4.2 REFERENTIAL INTEGRITY
+
+# Validation requirements:
+
+# - Participant identifiers are unique.
+# - Adverse event identifiers are unique.
+# - No adverse event references an unknown participant.
+# - Multiple events per participant are supported.
+# - Participant and event counts remain distinguishable.
+
+
+
+# ----------------------------------------------------------
 # IMPLEMENTATION BOUNDARY
 # ----------------------------------------------------------
 
