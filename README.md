@@ -12,7 +12,7 @@ Development status: Block 01 completed; Block 02 dashboard foundation implemente
 
 All datasets are entirely synthetic and represent a fictional clinical trial. This project is intended for educational, technical development, and portfolio purposes. It does not use real patient information or serve as a clinically or regulatorily validated monitoring system.
 
-![Project overview — Development pipeline](docs/images/project_overview_v0.1.0.png)
+![Project overview — Development pipeline](docs/images/00_project_overview_v0.1.0.png)
 
 ## 1. Project objectives
 
